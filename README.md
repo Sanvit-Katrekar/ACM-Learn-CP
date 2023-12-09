@@ -70,7 +70,7 @@ Also, there are multiple ways of reading input:
 Write a program that takes input as student id (int), student name (string), student discipline (string), student marks (float) and student grade (char).
 
 [Answer: basic.c](basic-io/basic.c)
-[Answer using gets(): basic_gets.c](basic-io/basic_gets.c.c)
+[Answer using gets(): basic_gets.c](basic-io/basic_gets.c)
 [Answer using cmd line arguments](basic-io/cmdline.c)
 
 ## Simple Arithmetic and ASCII
