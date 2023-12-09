@@ -16,7 +16,7 @@ It's a pretty chill exam, no worries!
 
 ## And so the grind begins
 
-We will be covering $7$ important topics:
+We will be covering $8$ important topics:
 
 1. Basic Input/Output
 
@@ -32,7 +32,9 @@ We will be covering $7$ important topics:
 
 7. Structures
 
-A small note: We will be using mostly _ inbuilt c header files:
+8. Recursion
+
+We will be using these inbuilt c header files:
 
 ```c
 #include <stdio.h> // Standard I/O functions, never forget to include this 
@@ -208,6 +210,28 @@ a) Display all Books written by J.K Rowling
 b) Display the author name of the book 'On the Origin of Species' 
 
 c) Display book details and author name of books published before the year 2000
+
+
+
+## Recursion
+
+Recursion is like a funhouse mirror, creating a seemingly endless loop of self-referential code.
+
+It's a powerful technique that allows functions to call themselves, leading to a series of nested steps that solve complex problems in an elegant way.
+
+In this section we discuss a recursive approach to solving problems.
+
+###### Question 1:
+
+Write a program to calculate the power of a number $x^n$
+
+###### Question 2:
+
+Write a program to calculate the nth term of fibnocci term.
+
+###### Question 3:
+
+Write a program to calculate $n * (n-2) * (n-4) * ...\  2$ if $n$ is even, or $n * (n-2) * (n-4) * ...\ 1$ if $n$ is odd.
 
 
 
