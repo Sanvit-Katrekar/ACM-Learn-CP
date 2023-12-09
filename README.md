@@ -69,7 +69,9 @@ Also, there are multiple ways of reading input:
 
 Write a program that takes input as student id (int), student name (string), student discipline (string), student marks (float) and student grade (char).
 
-
+[Answer: basic.c](basic-io/basic.c)
+[Answer using gets(): basic_gets.c](basic-io/basic_gets.c.c)
+[Answer using cmd line arguments](basic-io/cmdline.c)
 
 ## Simple Arithmetic and ASCII
 
@@ -79,25 +81,37 @@ In this section we practice some problems based on arithmetic operations in C.
 
 Write a program that takes input as marks of a student for $6$ courses, and prints average marks.
 
+[Answer: avg.c](arithmetic/avg.c)
+
 ###### Question 2:
 
 Write a program that reads two numbers, and multiplies then if operator is entered as $*$, divides them if operator is entered as $/$ 
+
+[Answer: mul_div.c](arithmetic/mul_div.c)
 
 ###### Question 3:
 
 Write a program that prints the sum of digits of a number.
 
+[Answer: digits_sum.c](arithmetic/digits_sum.c)
+
 ###### Question 4:
 
 Write a program that checks if a number is an amrstrong number, i.e., the sum of the cube of it's digits is equal to the number itself.
+
+[Answer: armstrong.c](arithmetic/armstrong.c)
 
 ###### Question 5:
 
 Write a program that calculates the volume of a sphere, taking radius of sphere as user input.
 
+[Answer: sphere_volume.c](arithmetic/sphere_volume.c)
+
 ###### Question 6:
 
 Write a program that reads a character and converts it into lowercase.
+
+[Answer: upper_to_lower.c](arithmetic/upper_lower.c)
 
 ## Matrices
 
@@ -105,9 +119,13 @@ Write a program that reads a character and converts it into lowercase.
 
 Write a program to add two matrices.
 
+[Answer: add.c](matrices/add.c)
+
 ###### Question 2:
 
 Write a program to multiply two matrices.
+
+[Answer: mul.c](matrices/mul.c)
 
 ## Functions
 
@@ -115,11 +133,13 @@ Write a program to multiply two matrices.
 
 Write a function that returns the sum of digits.
 
+[Answer: max_marks.c](functions/sum_digits.c)
+
 ###### Question 2:
 
 Write a program that takes input as marks of a student for $n$ courses, and prints maximum marks. Value of $n$ is taken from user.
 
-
+[Answer: max_marks.c](functions/max_marks.c)
 
 ## String operations
 
@@ -146,6 +166,8 @@ For example, if you believe you string length will be 4, initialize it as:
 char string[5]; // indices 0 to 3 (inclusive) for string, index 4 for \0  
 ```
 
+Here are all the string functions: [all_functions.c](strings/all_funcs.c)
+
 ## Pointers
 
 In this section we wil be pointing towards our screen and think what is happening... 
@@ -165,9 +187,13 @@ int main() {
 
 Write a function to swap two values
 
+[Answer: swap.c](pointers/swap.c)
+
 ###### Question 2:
 
 Write a program to read and display your id number and cgpa.
+
+[Answer: student.c](pointers/student.c)
 
 ## Structures
 
@@ -177,9 +203,13 @@ In this section, we discuss the use of structures to group related data, and hel
 
 Write a program to read student details and print using structures.
 
+[Answer: student.c](structures/student.c)
+
 ###### Question 2:
 
 Write a program to read student details and print using structures, with the help of a read_value function wherein all values input of a student will be read.
+
+[Answer: student_ptr.c](structures/student_ptr.c)
 
 ###### Question 3:
 
@@ -211,7 +241,7 @@ b) Display the author name of the book 'On the Origin of Species'
 
 c) Display book details and author name of books published before the year 2000
 
-
+[Answer: books_authors.c](structures/books_authors.c)
 
 ## Recursion
 
@@ -225,22 +255,16 @@ In this section we discuss a recursive approach to solving problems.
 
 Write a program to calculate the power of a number $x^n$
 
+[Answer: power.c](recursion/power.c)
+
 ###### Question 2:
 
 Write a program to calculate the nth term of fibnocci term.
+
+[Answer: fib.c](recursion/fib.c)
 
 ###### Question 3:
 
 Write a program to calculate $n * (n-2) * (n-4) * ...\  2$ if $n$ is even, or $n * (n-2) * (n-4) * ...\ 1$ if $n$ is odd.
 
-
-
-
-
-
-
-
-
-
-
-
+[Answer: final.c](recursion/final.c)
