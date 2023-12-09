@@ -111,7 +111,7 @@ Write a program that calculates the volume of a sphere, taking radius of sphere 
 
 Write a program that reads a character and converts it into lowercase.
 
-[Answer: upper_to_lower.c](arithmetic/upper_lower.c)
+[Answer: upper_to_lower.c](arithmetic/upper_to_lower.c)
 
 ## Matrices
 
@@ -133,7 +133,7 @@ Write a program to multiply two matrices.
 
 Write a function that returns the sum of digits.
 
-[Answer: max_marks.c](functions/sum_digits.c)
+[Answer: sum_digits.c](functions/sum_digits.c)
 
 ###### Question 2:
 
@@ -166,7 +166,7 @@ For example, if you believe you string length will be 4, initialize it as:
 char string[5]; // indices 0 to 3 (inclusive) for string, index 4 for \0  
 ```
 
-Here are all the string functions: [all_functions.c](strings/all_funcs.c)
+Here are all the string functions: [all_funcs.c](strings/all_funcs.c)
 
 ## Pointers
 
